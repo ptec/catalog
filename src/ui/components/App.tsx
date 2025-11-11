@@ -23,14 +23,14 @@ function Item({ i, item }: { i: number; item: Item }) {
     <>
       <div className="card bg-base-100 w-96 shadow-sm mx-auto">
         <figure
-          onClick={() => item.image ? setOpen(true) : null}
-          className="cursor-pointer"
+          onClick={() => item.image && !item.soldOut ? setOpen(true) : null}
+          className="relative"
         >
           {item.image ? (
             <img
               src={item.image}
               alt={item.description}
-              className="w-full h-52 object-cover object-center transition-transform hover:scale-105"
+              className="w-full h-52 cursor-pointer object-cover object-center transition-transform hover:scale-105"
             />
           ) : (
             <div
@@ -44,6 +44,12 @@ function Item({ i, item }: { i: number; item: Item }) {
               ></div>
             </div>
           )}
+          { item.soldOut && <div className="absolute w-full h-full flex flex-col justify-center bg-gray-500/50">
+            <div className="w-full text-center text-2xl bg-accent text-accent-content font-alfa p-4">
+              Sold Out
+            </div>
+          </div>
+          }
         </figure>
 
         <div className="card-body">
@@ -58,14 +64,14 @@ function Item({ i, item }: { i: number; item: Item }) {
           <p>{item.description}</p>
           <div className="card-actions justify-between items-center">
             <p className="text-lg">${item.price}</p>
-            <a
+            { item.soldOut ? <button className="btn btn-primary" disabled>Sold Out</button> : <a
               className="btn btn-primary"
               href={item.link}
               target="_blank"
               rel="noopener noreferrer"
             >
               Buy Now
-            </a>
+            </a>}
           </div>
         </div>
       </div>
@@ -123,7 +129,7 @@ export default function App() {
       </div>
       {
         inventory.map((item, i) => {
-          return <Item key={i} i={i} item={item}/>
+          return (!(item.hide ?? false) && <Item key={i} i={i} item={item}/>)
         })
       }
     </div>

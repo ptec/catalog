@@ -1,8 +1,10 @@
 [
   {
+    "hide": false,
     "category": "Automotive",
     "name": "Service Package I (Bronze)",
-    "link": "https://square.link/u/OGcn2trP",
+    "link": "https://square.link/u/ZJULGs3U",
+    "image": "./assets/auto_1.avif",
     "noimage": "⭐",
     "price": "25",
     "description": "One Service visit; includes oil change (customer provides oil & filter), car wash, vacuum, detail, fluid top-off, PSI check."
@@ -10,7 +12,8 @@
   {
     "category": "Automotive",
     "name": "Service Package II (Silver)",
-    "link": "https://square.link/u/LZpVxUi1",
+    "link": "https://square.link/u/4sb7AvDL",
+    "image": "./assets/auto_2.avif",
     "noimage": "⭐⭐",
     "price": "75",
     "description": "5 service visits; includes all Bronze features; save $50 total!"
@@ -18,7 +21,8 @@
   {
     "category": "Automotive",
     "name": "Service Package III (Gold)",
-    "link": "https://square.link/u/TPa9a69L",
+    "link": "https://square.link/u/r39umKtR",
+    "image": "./assets/auto_3.avif",
     "noimage": "⭐⭐⭐",
     "price": "100",
     "description": "Unlimited oil change + car wash combo for 25-26 PTEC school year (expires May 1, 2026)."
@@ -26,7 +30,7 @@
   {
     "category": "CAD",
     "name": "Desktop Calendar (Multiple Styles)",
-    "link": "https://square.link/u/kmqLKJCG",
+    "link": "https://square.link/u/qYV4uIqs",
     "price": "7",
     "image": "./assets/cad_desk_calendar.jpeg",
     "description": "These compact and attractive marble filament calendars are both useful and make a great gift for family, friends, or colleagues!"
@@ -34,7 +38,7 @@
   {
     "category": "CAD",
     "name": "Tea Light Holder",
-    "link": "https://square.link/u/BAvQg57d",
+    "link": "https://square.link/u/FoxkRlAS",
     "price": "5",
     "image": "./assets/cad_tea_light_holder.jpeg",
     "description": "Designed and printed at PTEC. When lit, the light shines through, creating cozy and charming patterns for your space!"
@@ -42,7 +46,7 @@
   {
     "category": "Construction",
     "name": "Chess Board",
-    "link": "https://square.link/u/Tu01qJIc",
+    "link": "https://square.link/u/eTHjE2f9",
     "image": "./assets/con_chess_board.jpg",
     "noimage": "⬛⬜<br>⬜⬛",
     "price": "25",
@@ -51,7 +55,7 @@
   {
     "category": "Construction",
     "name": "Coat / Key Holder",
-    "link": "https://square.link/u/SMi9yclP",
+    "link": "https://square.link/u/Xaycyg0a",
     "price": "20",
     "image": "./assets/con_coat_key_holder.jpeg",
     "description": "These handmade hangars are designed to be both functional and decorative in the home."
@@ -59,7 +63,7 @@
   {
     "category": "Construction",
     "name": "Lighted Wood Tree",
-    "link": "https://square.link/u/qmagZBPr",
+    "link": "https://square.link/u/DeTxccQD",
     "price": "15",
     "image": "./assets/con_lighted_wood_tree.jpeg",
     "description": "Only two remaining! These trees will warm up any home, both indoors and out!"
@@ -67,7 +71,7 @@
   {
     "category": "Construction",
     "name": "Mountain Shelf",
-    "link": "https://square.link/u/vY334t5S",
+    "link": "https://square.link/u/sIDgev3d",
     "price": "10",
     "image": "./assets/con_mountain_shelf.jpeg",
     "description": "Celebrate the mountains of Colorado with this strategically designed shelf. It is both decorative and functional."
@@ -75,7 +79,7 @@
   {
     "category": "Construction",
     "name": "Standing Coat Rack",
-    "link": "https://square.link/u/CjfhZ9p9",
+    "link": "https://square.link/u/5iwrAlij",
     "price": "20",
     "image": "./assets/con_standing_coat_rack.jpeg",
     "description": "Only one remaining! - reduced price"
@@ -83,7 +87,7 @@
   {
     "category": "Construction",
     "name": "Wooden Stool",
-    "link": "https://square.link/u/POAFBnQA",
+    "link": "https://square.link/u/oBllPQjD",
     "price": "20",
     "image": "./assets/con_stool.jpeg",
     "description": "Great stools for any space in your home or office."
@@ -91,7 +95,7 @@
   {
     "category": "Engineering",
     "name": "Game Console & Controller",
-    "link": "https://square.link/u/Ne2zwepy",
+    "link": "https://square.link/u/xMhFz1U5",
     "price": "65",
     "image": "./assets/eng_console_controller.jpeg",
     "description": "The perfect portable retro handheld controller - powered by Raspberry Pi Zero W and Adafruit Joy Bonnet! Add ROMS wirelessly, plugs directly into your HDTV!"
@@ -99,73 +103,77 @@
   {
     "category": "Industrial Arts 6",
     "name": "Engraved Keychains",
-    "link": "https://square.link/u/TGVHlY2T",
+    "link": "https://square.link/u/SoYNbZWN",
     "price": "5",
+    "image": "./assets/ia6_keychain.jpg",
     "noimage": "🐄🗝️⛓️",
     "description": "Laser-engraved leather keychains, various designs are available."    
   },
   {
     "category": "Industrial Arts 6",
     "name": "Slate Engraved Coasters",
-    "link": "https://square.link/u/wvbdb2Om",
+    "link": "https://square.link/u/FDBCN1Ba",
     "price": "5",
+    "image": "./assets/ia6_coaster.jpg",
     "noimage": "🍷<br>🩶",
     "description": "Laser etched coasters made from slate. Multiple designs available. Great Christmas gifts."
   },
   {
     "category": "Industrial Arts 6",
     "name": "Wooden Coasters",
-    "link": "https://square.link/u/hrfqmFtt",
+    "link": "https://square.link/u/EnK9TeUa",
     "price": "5",
+    "image": "./assets/ia6_coaster.jpg",
     "noimage": "🍺<br>🪵",
     "description": "Laser engraved. Multiple designs available."
   },
   {
+    "soldOut": true,
     "category": "Industrial Arts 7",
     "name": "4\" Chamfer Hexagon Shelf",
-    "link": "https://square.link/u/lsNVuOH1",
+    "link": "https://square.link/u/pmJFImTN",
     "price": "25",
-    "image": "./assets/ia6_hex_shelf.jpg",
+    "image": "./assets/ia7_hex_shelf.jpg",
     "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
   },
   {
     "category": "Industrial Arts 7",
     "name": "4\" Plain Hexagon Shelf",
-    "link": "https://square.link/u/k8fHoN8p",
+    "link": "https://square.link/u/mbS9Y6sB",
     "price": "20",
-    "image": "./assets/ia6_hex_shelf.jpg",
+    "image": "./assets/ia7_hex_shelf.jpg",
     "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
   },
   {
     "category": "Industrial Arts 7",
     "name": "4\" Round Over Hexagon Shelf",
-    "link": "https://square.link/u/rZuLkXqo",
+    "link": "https://square.link/u/r8nGV6af",
     "price": "30",
-    "image": "./assets/ia6_hex_shelf.jpg",
+    "image": "./assets/ia7_hex_shelf.jpg",
     "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
   },
     {
     "category": "Industrial Arts 7",
     "name": "5\" Chamfer Hexagon Shelf",
-    "link": "https://square.link/u/MdQ6kBN7",
+    "link": "https://square.link/u/D9lFaJiC",
     "price": "30",
-    "image": "./assets/ia6_hex_shelf.jpg",
+    "image": "./assets/ia7_hex_shelf.jpg",
     "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
   },
   {
     "category": "Industrial Arts 7",
     "name": "5\" Plain Hexagon Shelf",
-    "link": "https://square.link/u/vK3WqDGv",
+    "link": "https://square.link/u/CiuQRYAO",
     "price": "25",
-    "image": "./assets/ia6_hex_shelf.jpg",
+    "image": "./assets/ia7_hex_shelf.jpg",
     "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
   },
   {
     "category": "Industrial Arts 7",
     "name": "5\" Round Over Hexagon Shelf",
-    "link": "https://square.link/u/OTtqq2lz",
+    "link": "https://square.link/u/letqZ1Jn",
     "price": "35",
-    "image": "./assets/ia6_hex_shelf.jpg",
+    "image": "./assets/ia7_hex_shelf.jpg",
     "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
   }
 ]
