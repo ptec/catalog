@@ -28,7 +28,7 @@
     "name": "Desktop Calendar (Multiple Styles)",
     "link": "https://square.link/u/kmqLKJCG",
     "price": "7",
-    "image": "/assets/cad_desk_calendar.jpeg",
+    "image": "./assets/cad_desk_calendar.jpeg",
     "description": "These compact and attractive marble filament calendars are both useful and make a great gift for family, friends, or colleagues!"
   }, 
   {
@@ -36,14 +36,14 @@
     "name": "Tea Light Holder",
     "link": "https://square.link/u/BAvQg57d",
     "price": "5",
-    "image": "/assets/cad_tea_light_holder.jpeg",
+    "image": "./assets/cad_tea_light_holder.jpeg",
     "description": "Designed and printed at PTEC. When lit, the light shines through, creating cozy and charming patterns for your space!"
   },
   {
     "category": "Construction",
     "name": "Chess Board",
     "link": "https://square.link/u/Tu01qJIc",
-    "image": "/assets/con_chess_board.jpg",
+    "image": "./assets/con_chess_board.jpg",
     "noimage": "⬛⬜<br>⬜⬛",
     "price": "25",
     "description": "This charming board is handmade using hardwood and tile. It is a bold and distinguished centerpiece for any game room or coffee table."
@@ -53,7 +53,7 @@
     "name": "Coat / Key Holder",
     "link": "https://square.link/u/SMi9yclP",
     "price": "20",
-    "image": "/assets/con_coat_key_holder.jpeg",
+    "image": "./assets/con_coat_key_holder.jpeg",
     "description": "These handmade hangars are designed to be both functional and decorative in the home."
   },
   {
@@ -61,7 +61,7 @@
     "name": "Lighted Wood Tree",
     "link": "https://square.link/u/qmagZBPr",
     "price": "15",
-    "image": "/assets/con_lighted_wood_tree.jpeg",
+    "image": "./assets/con_lighted_wood_tree.jpeg",
     "description": "Only two remaining! These trees will warm up any home, both indoors and out!"
   },
   {
@@ -69,7 +69,7 @@
     "name": "Mountain Shelf",
     "link": "https://square.link/u/vY334t5S",
     "price": "10",
-    "image": "/assets/con_mountain_shelf.jpeg",
+    "image": "./assets/con_mountain_shelf.jpeg",
     "description": "Celebrate the mountains of Colorado with this strategically designed shelf. It is both decorative and functional."
   },
   {
@@ -77,7 +77,7 @@
     "name": "Standing Coat Rack",
     "link": "https://square.link/u/CjfhZ9p9",
     "price": "20",
-    "image": "/assets/con_standing_coat_rack.jpeg",
+    "image": "./assets/con_standing_coat_rack.jpeg",
     "description": "Only one remaining! - reduced price"
   },
   {
@@ -85,7 +85,7 @@
     "name": "Wooden Stool",
     "link": "https://square.link/u/POAFBnQA",
     "price": "20",
-    "image": "/assets/con_stool.jpeg",
+    "image": "./assets/con_stool.jpeg",
     "description": "Great stools for any space in your home or office."
   },
   {
@@ -93,7 +93,7 @@
     "name": "Game Console & Controller",
     "link": "https://square.link/u/Ne2zwepy",
     "price": "65",
-    "image": "/assets/eng_console_controller.jpeg",
+    "image": "./assets/eng_console_controller.jpeg",
     "description": "The perfect portable retro handheld controller - powered by Raspberry Pi Zero W and Adafruit Joy Bonnet! Add ROMS wirelessly, plugs directly into your HDTV!"
   },
   {
@@ -125,7 +125,7 @@
     "name": "4\" Chamfer Hexagon Shelf",
     "link": "https://square.link/u/lsNVuOH1",
     "price": "25",
-    "image": "/assets/ia6_hex_shelf.jpg",
+    "image": "./assets/ia6_hex_shelf.jpg",
     "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
   },
   {
@@ -133,7 +133,7 @@
     "name": "4\" Plain Hexagon Shelf",
     "link": "https://square.link/u/k8fHoN8p",
     "price": "20",
-    "image": "/assets/ia6_hex_shelf.jpg",
+    "image": "./assets/ia6_hex_shelf.jpg",
     "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
   },
   {
@@ -141,7 +141,7 @@
     "name": "4\" Round Over Hexagon Shelf",
     "link": "https://square.link/u/rZuLkXqo",
     "price": "30",
-    "image": "/assets/ia6_hex_shelf.jpg",
+    "image": "./assets/ia6_hex_shelf.jpg",
     "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
   },
     {
@@ -149,7 +149,7 @@
     "name": "5\" Chamfer Hexagon Shelf",
     "link": "https://square.link/u/MdQ6kBN7",
     "price": "30",
-    "image": "/assets/ia6_hex_shelf.jpg",
+    "image": "./assets/ia6_hex_shelf.jpg",
     "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
   },
   {
@@ -157,7 +157,7 @@
     "name": "5\" Plain Hexagon Shelf",
     "link": "https://square.link/u/vK3WqDGv",
     "price": "25",
-    "image": "/assets/ia6_hex_shelf.jpg",
+    "image": "./assets/ia6_hex_shelf.jpg",
     "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
   },
   {
@@ -165,7 +165,7 @@
     "name": "5\" Round Over Hexagon Shelf",
     "link": "https://square.link/u/OTtqq2lz",
     "price": "35",
-    "image": "/assets/ia6_hex_shelf.jpg",
+    "image": "./assets/ia6_hex_shelf.jpg",
     "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
   }
 ]
