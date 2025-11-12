@@ -22,7 +22,7 @@ function Item({ i, item }: { i: number; item: Item }) {
 
   return (
     <>
-      <div className="card bg-base-100 max-w-100 shadow-sm mx-auto">
+      <div className="card bg-base-100 w-90 shadow-sm mx-auto">
         <figure
           onClick={() => item.image && !item.soldOut ? setOpen(true) : null}
           className="relative"
