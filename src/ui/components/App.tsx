@@ -22,7 +22,7 @@ function Item({ i, item }: { i: number; item: Item }) {
 
   return (
     <>
-      <div className="card bg-base-100 w-96 shadow-sm mx-auto">
+      <div className="card bg-base-100 w-90 shadow-sm mx-auto">
         <figure
           onClick={() => item.image && !item.soldOut ? setOpen(true) : null}
           className="relative"
@@ -55,7 +55,7 @@ function Item({ i, item }: { i: number; item: Item }) {
 
         <div className="card-body">
           <h2 className="card-title">
-            <div className="badge badge-primary badge-outline text-nowrap">
+            <div className="badge badge-primary badge-outline text-nowrap text-xs">
               {item.category}
             </div>
             <span className="grow truncate">

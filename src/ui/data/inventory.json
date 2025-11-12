@@ -1,10 +1,9 @@
 [
   {
-    "hide": false,
     "category": "Automotive",
     "name": "Service Package I (Bronze)",
     "link": "https://square.link/u/ZJULGs3U",
-    "image_": "./assets/auto_1.avif",
+    "image": "./assets/Bronzepackage.png",
     "noimage": "⭐",
     "price": "25",
     "description": "One Service visit; includes oil change (customer provides oil & filter), car wash, vacuum, detail, fluid top-off, PSI check."
@@ -13,7 +12,7 @@
     "category": "Automotive",
     "name": "Service Package II (Silver)",
     "link": "https://square.link/u/4sb7AvDL",
-    "image_": "./assets/auto_2.avif",
+    "image": "./assets/SilverPackage.png",
     "noimage": "⭐⭐",
     "price": "75",
     "description": "5 service visits; includes all Bronze features; save $50 total!"
@@ -22,7 +21,7 @@
     "category": "Automotive",
     "name": "Service Package III (Gold)",
     "link": "https://square.link/u/r39umKtR",
-    "image_": "./assets/auto_3.avif",
+    "image": "./assets/GoldPackage.png",
     "noimage": "⭐⭐⭐",
     "price": "100",
     "description": "Unlimited oil change + car wash combo for 25-26 PTEC school year (expires May 1, 2026)."
@@ -128,6 +127,7 @@
     "description": "Laser engraved. Multiple designs available."
   },
   {
+    "hide": true,
     "soldOut": true,
     "category": "Industrial Arts 7",
     "name": "4\" Chamfer Hexagon Shelf",
@@ -225,6 +225,7 @@
     "description": ""
   },
   {
+    "hide": true,
     "soldOut": true,
     "category": "Welding",
     "name": "Metal Wall Art (Large)",
@@ -266,6 +267,7 @@
     "description": ""
   },
   {
+    "hide": true,
     "soldOut": true,
     "category": "Wood Shop",
     "name": "Christmas Tree",
@@ -275,6 +277,7 @@
     "description": ""
   },
   {
+    "hide": true,
     "soldOut": true,
     "category": "Wood Shop",
     "name": "Squirrel Feeder",
