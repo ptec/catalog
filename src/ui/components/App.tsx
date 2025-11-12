@@ -68,7 +68,7 @@ function Item({ i, item }: { i: number; item: Item }) {
               <div className="dropdown w-full">
                 <div tabIndex={ 0} role="button" className="btn w-full m-1">See Options</div>
                 <ul  tabIndex={-1} className="dropdown-content menu bg-base-100 rounded-box z-1 w-full shadow-sm gap-1">
-                  {item.options.map(option => {
+                  {item.options.map((option: any) => {
                     return (
                       <li className="hover:bg-base-200 text-sm flex flex-row justify-between items-center flex-nowrap pl-2 rounded-lg">
                         {option.name}
