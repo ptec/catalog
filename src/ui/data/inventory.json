@@ -274,14 +274,6 @@
       },
       {
         "category": "Wood Shop",
-        "name": "Business Card Holder",
-        "link": "https://square.link/u/RFTf3e1C",
-        "price": "3",
-        "image": "./assets/wsh_all.jpg",
-        "description": ""
-      },
-      {
-        "category": "Wood Shop",
         "name": "Cell Phone Holder",
         "link": "https://square.link/u/q82Wj4WF",
         "price": "10",
@@ -293,6 +285,14 @@
         "name": "Wood Knot Puzzle",
         "link": "https://square.link/u/CFOfI8jT",
         "price": "5",
+        "image": "./assets/wsh_all.jpg",
+        "description": ""
+      },
+      {
+        "category": "Wood Shop",
+        "name": "Business Card Holder",
+        "link": "https://square.link/u/RFTf3e1C",
+        "price": "3",
         "image": "./assets/wsh_all.jpg",
         "description": ""
       }
