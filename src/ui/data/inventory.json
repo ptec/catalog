@@ -110,27 +110,27 @@
   },
   {
     "category": "Industrial Arts 6",    
-    "name": "Coasters",
+    "name": "Engraved Coasters",
     "image": "./assets/ia6_coaster.jpg",
     "description": "Laser etched coasters made from wood and slate. Multiple designs available. Great Christmas gifts.",
     "options": [
       {
         "category": "Industrial Arts 6",
-        "name": "Slate Engraved Coasters",
-        "link": "https://square.link/u/FDBCN1Ba",
-        "price": "5",
-        "image": "./assets/ia6_coaster.jpg",
-        "noimage": "🍷<br>🩶",
-        "description": "Laser etched coasters made from slate. Multiple designs available. Great Christmas gifts."
-      },
-      {
-        "category": "Industrial Arts 6",
-        "name": "Wood Engraved Coasters",
+        "name": "Wood",
         "link": "https://square.link/u/EnK9TeUa",
         "price": "5",
         "image": "./assets/ia6_coaster.jpg",
         "noimage": "🍺<br>🪵",
         "description": "Laser engraved. Multiple designs available."
+      },
+      {
+        "category": "Industrial Arts 6",
+        "name": "Slate",
+        "link": "https://square.link/u/FDBCN1Ba",
+        "price": "5",
+        "image": "./assets/ia6_coaster.jpg",
+        "noimage": "🍷<br>🩶",
+        "description": "Laser etched coasters made from slate. Multiple designs available. Great Christmas gifts."
       }
     ]
   },
@@ -141,10 +141,18 @@
     "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities.",
     "options": [
       {
+        "category": "Industrial Arts 7",
+        "name": "4\" Plain",
+        "link": "https://square.link/u/mbS9Y6sB",
+        "price": "20",
+        "image": "./assets/ia7_hex_shelf.jpg",
+        "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
+      },
+      {
         "hide": true,
         "soldOut": true,
         "category": "Industrial Arts 7",
-        "name": "4\" Chamfer Hexagon Shelf",
+        "name": "4\" Chamfer",
         "link": "https://square.link/u/pmJFImTN",
         "price": "25",
         "image": "./assets/ia7_hex_shelf.jpg",
@@ -152,31 +160,15 @@
       },
       {
         "category": "Industrial Arts 7",
-        "name": "4\" Plain Hexagon Shelf",
-        "link": "https://square.link/u/mbS9Y6sB",
-        "price": "20",
-        "image": "./assets/ia7_hex_shelf.jpg",
-        "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
-      },
-      {
-        "category": "Industrial Arts 7",
-        "name": "4\" Round Over Hexagon Shelf",
+        "name": "4\" Round Over",
         "link": "https://square.link/u/r8nGV6af",
         "price": "30",
         "image": "./assets/ia7_hex_shelf.jpg",
         "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
       },
-        {
-        "category": "Industrial Arts 7",
-        "name": "5\" Chamfer Hexagon Shelf",
-        "link": "https://square.link/u/D9lFaJiC",
-        "price": "30",
-        "image": "./assets/ia7_hex_shelf.jpg",
-        "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
-      },
       {
         "category": "Industrial Arts 7",
-        "name": "5\" Plain Hexagon Shelf",
+        "name": "5\" Plain",
         "link": "https://square.link/u/CiuQRYAO",
         "price": "25",
         "image": "./assets/ia7_hex_shelf.jpg",
@@ -184,7 +176,15 @@
       },
       {
         "category": "Industrial Arts 7",
-        "name": "5\" Round Over Hexagon Shelf",
+        "name": "5\" Chamfer",
+        "link": "https://square.link/u/D9lFaJiC",
+        "price": "30",
+        "image": "./assets/ia7_hex_shelf.jpg",
+        "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
+      },
+      {
+        "category": "Industrial Arts 7",
+        "name": "5\" Round Over",
         "link": "https://square.link/u/letqZ1Jn",
         "price": "35",
         "image": "./assets/ia7_hex_shelf.jpg",
@@ -260,27 +260,43 @@
   },
   {
     "category": "Wood Shop",
-    "name": "Bluetooth Speaker",
-    "link": "https://square.link/u/Mzm0lsrW",
-    "price": "55",
+    "name": "Wood Crafts",
     "image": "./assets/wsh_all.jpg",
-    "description": ""
-  },
-  {
-    "category": "Wood Shop",
-    "name": "Business Card Holder",
-    "link": "https://square.link/u/RFTf3e1C",
-    "price": "3",
-    "image": "./assets/wsh_all.jpg",
-    "description": ""
-  },
-  {
-    "category": "Wood Shop",
-    "name": "Cell Phone Holder",
-    "link": "https://square.link/u/q82Wj4WF",
-    "price": "10",
-    "image": "./assets/wsh_all.jpg",
-    "description": ""
+    "description": "",
+    "options": [
+      {
+        "category": "Wood Shop",
+        "name": "Bluetooth Speaker",
+        "link": "https://square.link/u/Mzm0lsrW",
+        "price": "55",
+        "image": "./assets/wsh_all.jpg",
+        "description": ""
+      },
+      {
+        "category": "Wood Shop",
+        "name": "Business Card Holder",
+        "link": "https://square.link/u/RFTf3e1C",
+        "price": "3",
+        "image": "./assets/wsh_all.jpg",
+        "description": ""
+      },
+      {
+        "category": "Wood Shop",
+        "name": "Cell Phone Holder",
+        "link": "https://square.link/u/q82Wj4WF",
+        "price": "10",
+        "image": "./assets/wsh_all.jpg",
+        "description": ""
+      },
+      {
+        "category": "Wood Shop",
+        "name": "Wood Knot Puzzle",
+        "link": "https://square.link/u/CFOfI8jT",
+        "price": "5",
+        "image": "./assets/wsh_all.jpg",
+        "description": ""
+      }
+    ]
   },
   {
     "hide": true,
@@ -300,14 +316,6 @@
     "link": "https://square.link/u/jVNVhsTQ",
     "price": "3",
     "noimage": "🐿️",
-    "description": ""
-  },
-  {
-    "category": "Wood Shop",
-    "name": "Wood Knot Puzzle",
-    "link": "https://square.link/u/CFOfI8jT",
-    "price": "5",
-    "image": "./assets/wsh_all.jpg",
     "description": ""
   },
   {

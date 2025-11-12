@@ -55,7 +55,7 @@ function Item({ i, item }: { i: number; item: Item }) {
 
         <div className="card-body">
           <h2 className="card-title flex flex-col items-center">
-            <div className="badge badge-primary badge-outline text-nowrap text-xs">
+            <div className="badge badge-primary badge-outline text-nowrap">
               {item.category}
             </div>
             <span className="grow truncate">
@@ -70,8 +70,9 @@ function Item({ i, item }: { i: number; item: Item }) {
                 <ul  tabIndex={-1} className="dropdown-content menu bg-base-100 rounded-box z-1 w-full shadow-sm gap-1">
                   {item.options.map((option: any) => {
                     return (
-                      <li className="hover:bg-base-200 text-sm flex flex-row justify-between items-center flex-nowrap pl-2 rounded-lg">
-                        {option.name}
+                      <li className="max-w-full flex flex-row hover:bg-base-200 text-sm items-center flex-nowrap pl-2 rounded-lg">
+                        <div className="badge badge-sm text-center w-8 font-bold items-center">${option.price}</div>
+                        <div className="grow truncate! bg-transparent">{option.name}</div>
                         {option.soldOut && (
                           <button className="btn btn-primary btn-sm" disabled>
                             Sold Out
