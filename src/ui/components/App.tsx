@@ -1,6 +1,7 @@
 import { useState } from "react";
 import inventory from "../data/inventory.json";
 import { X } from "lucide-react"
+import clsx from "clsx";
 
 
 type Item = typeof inventory[number];
@@ -30,7 +31,7 @@ function Item({ i, item }: { i: number; item: Item }) {
             <img
               src={item.image}
               alt={item.description}
-              className="w-full h-52 cursor-pointer object-cover object-center transition-transform hover:scale-105"
+              className={clsx(item.soldOut && "grayscale", "w-full h-52 cursor-pointer object-cover object-center transition-transform hover:scale-105")}
             />
           ) : (
             <div
@@ -44,7 +45,7 @@ function Item({ i, item }: { i: number; item: Item }) {
               ></div>
             </div>
           )}
-          { item.soldOut && <div className="absolute w-full h-full flex flex-col justify-center bg-gray-500/50">
+          { item.soldOut && <div className="absolute w-full h-full flex flex-col justify-center">
             <div className="w-full text-center text-2xl bg-accent text-accent-content font-alfa p-4">
               Sold Out
             </div>
@@ -113,9 +114,9 @@ function Item({ i, item }: { i: number; item: Item }) {
 
 export default function App() {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-4 w-fit mx-auto">
+    <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-4 w-fit mx-auto p-4">
       <div className="col-span-full flex flex-col gap-4 max-w-xl lg:max-w-2xl 2xl:max-w-4xl mx-auto justify-center">
-        <h1 className="text-2xl lg:text-4xl 2xl:text-6xl text-center p-4 font-alfa text-transparent bg-clip-text  bg-linear-to-tr from-primary to-accent">
+        <h1 className="text-4xl lg:text-5xl 2xl:text-6xl text-center p-4 font-alfa text-transparent bg-clip-text  bg-linear-to-tr from-primary to-accent">
           PTEC<br/>Maker's Market Catalog
         </h1>
         <p className="text-lg mx-auto text-justify">

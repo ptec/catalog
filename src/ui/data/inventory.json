@@ -120,7 +120,7 @@
   },
   {
     "category": "Industrial Arts 6",
-    "name": "Wooden Coasters",
+    "name": "Wood Engraved Coasters",
     "link": "https://square.link/u/EnK9TeUa",
     "price": "5",
     "image": "./assets/ia6_coaster.jpg",
@@ -175,5 +175,128 @@
     "price": "35",
     "image": "./assets/ia7_hex_shelf.jpg",
     "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
-  }
+  },
+  {
+    "category": "Masonry",
+    "name": "2\" Glass Block",
+    "link": "https://square.link/u/WfXXmmFC",
+    "price": "25",
+    "noimage": "🪟",
+    "description": ""
+  },
+  {
+    "category": "Masonry",
+    "name": "4\" Glass Block",
+    "link": "https://square.link/u/LoJOWH9w",
+    "price": "35",
+    "noimage": "🪟",
+    "description": ""
+  },
+  {
+    "category": "Welding",
+    "name": "Black Pipe Lamp",
+    "link": "https://square.link/u/cBqTQVPw",
+    "price": "35",
+    "image": "./assets/wel_lamp.jpeg",
+    "description": ""
+  },
+  {
+    "category": "Welding",
+    "name": "Metal Cross",
+    "link": "https://square.link/u/MiwBP4Xv",
+    "price": "35",
+    "image": "./assets/do_not_use_1.jpg",
+    "description": ""
+  },
+  {
+    "category": "Welding",
+    "name": "Metal Deer / Bull",
+    "link": "https://square.link/u/vzvvZ9vW",
+    "price": "25",
+    "image": "./assets/do_not_use_2.jpeg",
+    "description": ""
+  },
+  {
+    "category": "Welding",
+    "name": "Metal Ornament",
+    "link": "https://square.link/u/EKJMTu0T",
+    "price": "5",
+    "image": "./assets/do_not_use_1.jpg",
+    "description": ""
+  },
+  {
+    "soldOut": true,
+    "category": "Welding",
+    "name": "Metal Wall Art (Large)",
+    "link": "https://square.link/u/cTwQPFoB",
+    "price": "40",
+    "noimage": "🖼️",
+    "description": ""
+  },
+  {
+    "category": "Welding",
+    "name": "Metal Wall Art (Small)",
+    "link": "https://square.link/u/HEz02Gal",
+    "price": "20",
+    "image": "./assets/do_not_use_1.jpg",
+    "description": ""
+  },
+  {
+    "category": "Wood Shop",
+    "name": "Bluetooth Speaker",
+    "link": "https://square.link/u/Mzm0lsrW",
+    "price": "55",
+    "image": "./assets/wsh_all.jpg",
+    "description": ""
+  },
+  {
+    "category": "Wood Shop",
+    "name": "Business Card Holder",
+    "link": "https://square.link/u/RFTf3e1C",
+    "price": "3",
+    "image": "./assets/wsh_all.jpg",
+    "description": ""
+  },
+  {
+    "category": "Wood Shop",
+    "name": "Cell Phone Holder",
+    "link": "https://square.link/u/q82Wj4WF",
+    "price": "10",
+    "image": "./assets/wsh_all.jpg",
+    "description": ""
+  },
+  {
+    "soldOut": true,
+    "category": "Wood Shop",
+    "name": "Christmas Tree",
+    "link": "https://square.link/u/Iv8PAAI1",
+    "price": "7",
+    "noimage": "🎄",
+    "description": ""
+  },
+  {
+    "soldOut": true,
+    "category": "Wood Shop",
+    "name": "Squirrel Feeder",
+    "link": "https://square.link/u/jVNVhsTQ",
+    "price": "3",
+    "noimage": "🐿️",
+    "description": ""
+  },
+  {
+    "category": "Wood Shop",
+    "name": "Wood Knot Puzzle",
+    "link": "https://square.link/u/CFOfI8jT",
+    "price": "5",
+    "image": "./assets/wsh_all.jpg",
+    "description": ""
+  },
+  {
+    "category": "Wood Shop",
+    "name": "Yardzee",
+    "link": "https://square.link/u/xK1YoqGh",
+    "price": 10,
+    "image": "./assets/wsh_yardzee.jpeg",
+    "description": ""
+  }  
 ]
