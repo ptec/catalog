@@ -109,72 +109,88 @@
     "description": "Laser-engraved leather keychains, various designs are available."    
   },
   {
-    "category": "Industrial Arts 6",
-    "name": "Slate Engraved Coasters",
-    "link": "https://square.link/u/FDBCN1Ba",
-    "price": "5",
+    "category": "Industrial Arts 6",    
+    "name": "Coasters",
     "image": "./assets/ia6_coaster.jpg",
-    "noimage": "🍷<br>🩶",
-    "description": "Laser etched coasters made from slate. Multiple designs available. Great Christmas gifts."
-  },
-  {
-    "category": "Industrial Arts 6",
-    "name": "Wood Engraved Coasters",
-    "link": "https://square.link/u/EnK9TeUa",
-    "price": "5",
-    "image": "./assets/ia6_coaster.jpg",
-    "noimage": "🍺<br>🪵",
-    "description": "Laser engraved. Multiple designs available."
-  },
-  {
-    "hide": true,
-    "soldOut": true,
-    "category": "Industrial Arts 7",
-    "name": "4\" Chamfer Hexagon Shelf",
-    "link": "https://square.link/u/pmJFImTN",
-    "price": "25",
-    "image": "./assets/ia7_hex_shelf.jpg",
-    "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
-  },
-  {
-    "category": "Industrial Arts 7",
-    "name": "4\" Plain Hexagon Shelf",
-    "link": "https://square.link/u/mbS9Y6sB",
-    "price": "20",
-    "image": "./assets/ia7_hex_shelf.jpg",
-    "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
+    "description": "Laser etched coasters made from wood and slate. Multiple designs available. Great Christmas gifts.",
+    "options": [
+      {
+        "category": "Industrial Arts 6",
+        "name": "Slate Engraved Coasters",
+        "link": "https://square.link/u/FDBCN1Ba",
+        "price": "5",
+        "image": "./assets/ia6_coaster.jpg",
+        "noimage": "🍷<br>🩶",
+        "description": "Laser etched coasters made from slate. Multiple designs available. Great Christmas gifts."
+      },
+      {
+        "category": "Industrial Arts 6",
+        "name": "Wood Engraved Coasters",
+        "link": "https://square.link/u/EnK9TeUa",
+        "price": "5",
+        "image": "./assets/ia6_coaster.jpg",
+        "noimage": "🍺<br>🪵",
+        "description": "Laser engraved. Multiple designs available."
+      }
+    ]
   },
   {
     "category": "Industrial Arts 7",
-    "name": "4\" Round Over Hexagon Shelf",
-    "link": "https://square.link/u/r8nGV6af",
-    "price": "30",
+    "name": "Hexagon Shelf",
     "image": "./assets/ia7_hex_shelf.jpg",
-    "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
-  },
-    {
-    "category": "Industrial Arts 7",
-    "name": "5\" Chamfer Hexagon Shelf",
-    "link": "https://square.link/u/D9lFaJiC",
-    "price": "30",
-    "image": "./assets/ia7_hex_shelf.jpg",
-    "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
-  },
-  {
-    "category": "Industrial Arts 7",
-    "name": "5\" Plain Hexagon Shelf",
-    "link": "https://square.link/u/CiuQRYAO",
-    "price": "25",
-    "image": "./assets/ia7_hex_shelf.jpg",
-    "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
-  },
-  {
-    "category": "Industrial Arts 7",
-    "name": "5\" Round Over Hexagon Shelf",
-    "link": "https://square.link/u/letqZ1Jn",
-    "price": "35",
-    "image": "./assets/ia7_hex_shelf.jpg",
-    "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
+    "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities.",
+    "options": [
+      {
+        "hide": true,
+        "soldOut": true,
+        "category": "Industrial Arts 7",
+        "name": "4\" Chamfer Hexagon Shelf",
+        "link": "https://square.link/u/pmJFImTN",
+        "price": "25",
+        "image": "./assets/ia7_hex_shelf.jpg",
+        "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
+      },
+      {
+        "category": "Industrial Arts 7",
+        "name": "4\" Plain Hexagon Shelf",
+        "link": "https://square.link/u/mbS9Y6sB",
+        "price": "20",
+        "image": "./assets/ia7_hex_shelf.jpg",
+        "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
+      },
+      {
+        "category": "Industrial Arts 7",
+        "name": "4\" Round Over Hexagon Shelf",
+        "link": "https://square.link/u/r8nGV6af",
+        "price": "30",
+        "image": "./assets/ia7_hex_shelf.jpg",
+        "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
+      },
+        {
+        "category": "Industrial Arts 7",
+        "name": "5\" Chamfer Hexagon Shelf",
+        "link": "https://square.link/u/D9lFaJiC",
+        "price": "30",
+        "image": "./assets/ia7_hex_shelf.jpg",
+        "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
+      },
+      {
+        "category": "Industrial Arts 7",
+        "name": "5\" Plain Hexagon Shelf",
+        "link": "https://square.link/u/CiuQRYAO",
+        "price": "25",
+        "image": "./assets/ia7_hex_shelf.jpg",
+        "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
+      },
+      {
+        "category": "Industrial Arts 7",
+        "name": "5\" Round Over Hexagon Shelf",
+        "link": "https://square.link/u/letqZ1Jn",
+        "price": "35",
+        "image": "./assets/ia7_hex_shelf.jpg",
+        "description": "Stack, style, and display these hexagon shelves.  There are endless possibilities."
+      }
+    ]
   },
   {
     "category": "Masonry",

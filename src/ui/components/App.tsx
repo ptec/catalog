@@ -64,15 +64,54 @@ function Item({ i, item }: { i: number; item: Item }) {
           </h2>
           <p>{item.description}</p>
           <div className="card-actions justify-between items-center">
-            <p className="text-lg">${item.price}</p>
-            { item.soldOut ? <button className="btn btn-primary" disabled>Sold Out</button> : <a
-              className="btn btn-primary"
-              href={item.link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Buy Now
-            </a>}
+            {item.options && (
+              <div className="dropdown w-full">
+                <div tabIndex={ 0} role="button" className="btn w-full m-1">See Options</div>
+                <ul  tabIndex={-1} className="dropdown-content menu bg-base-100 rounded-box z-1 w-full shadow-sm gap-1">
+                  {item.options.map(option => {
+                    return (
+                      <li className="hover:bg-base-200 text-sm flex flex-row justify-between items-center flex-nowrap pl-2 rounded-lg">
+                        {option.name}
+                        {option.soldOut && (
+                          <button className="btn btn-primary btn-sm" disabled>
+                            Sold Out
+                          </button>
+                        )}
+                        {!option.soldOut && (
+                          <a
+                            className="btn btn-primary btn-sm"
+                            href={option.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Buy Now
+                          </a>
+                        )}
+                      </li>
+                    )
+                  })}
+                </ul>
+              </div>
+            )}
+
+            {!item.options && <>
+              <p className="text-lg">${item.price}</p>
+              {item.soldOut && (
+                <button className="btn btn-primary" disabled>
+                  Sold Out
+                </button>
+              )}
+              {!item.soldOut && (
+                <a
+                  className="btn btn-primary"
+                  href={item.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Buy Now
+                </a>
+              )}
+            </>}
           </div>
         </div>
       </div>
