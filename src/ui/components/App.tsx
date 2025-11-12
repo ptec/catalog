@@ -54,7 +54,7 @@ function Item({ i, item }: { i: number; item: Item }) {
         </figure>
 
         <div className="card-body">
-          <h2 className="card-title">
+          <h2 className="card-title flex flex-col items-center">
             <div className="badge badge-primary badge-outline text-nowrap text-xs">
               {item.category}
             </div>
@@ -114,9 +114,9 @@ function Item({ i, item }: { i: number; item: Item }) {
 
 export default function App() {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-4 w-fit mx-auto p-4">
-      <div className="col-span-full flex flex-col gap-4 max-w-xl lg:max-w-2xl 2xl:max-w-4xl mx-auto justify-center">
-        <h1 className="text-4xl lg:text-5xl 2xl:text-6xl text-center p-4 font-alfa text-transparent bg-clip-text  bg-linear-to-tr from-primary to-accent">
+    <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-4 max-w-sm md:max-w-3xl 2xl:max-w-6xl mx-auto p-4">
+      <div className="col-span-full flex flex-col gap-4 mx-auto justify-center">
+        <h1 className="text-4xl md:text-5xl 2xl:text-6xl text-center p-4 font-alfa text-transparent bg-clip-text  bg-linear-to-tr from-primary to-accent">
           PTEC<br/>Maker's Market Catalog
         </h1>
         <p className="text-lg mx-auto text-justify">
