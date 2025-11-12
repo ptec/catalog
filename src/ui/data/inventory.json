@@ -194,19 +194,28 @@
   },
   {
     "category": "Masonry",
-    "name": "2\" Glass Block",
-    "link": "https://square.link/u/WfXXmmFC",
-    "price": "25",
-    "noimage": "🪟",
-    "description": ""
-  },
-  {
-    "category": "Masonry",
-    "name": "4\" Glass Block",
-    "link": "https://square.link/u/LoJOWH9w",
-    "price": "35",
-    "noimage": "🪟",
-    "description": ""
+    "name": "Decorative Glass Block",
+    "image": "./assets/mas_glass_block.jpeg",
+    "description": "",
+    "options": [
+      {
+        "category": "Masonry",
+        "name": "2\" Glass Block",
+        "link": "https://square.link/u/WfXXmmFC",
+        "price": "25",
+        
+        "noimage": "🪟",
+        "description": ""
+      },
+      {
+        "category": "Masonry",
+        "name": "4\" Glass Block",
+        "link": "https://square.link/u/LoJOWH9w",
+        "price": "35",
+        "noimage": "🪟",
+        "description": ""
+      }
+    ]
   },
   {
     "category": "Welding",
