@@ -173,6 +173,7 @@ export default function App() {
           return (!(item.hide ?? false) && <Item key={i} i={i} item={item}/>)
         })
       }
+      <div className="col-span-full h-48"></div>
     </div>
   )
 }

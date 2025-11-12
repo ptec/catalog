@@ -218,45 +218,53 @@
   },
   {
     "category": "Welding",
-    "name": "Metal Cross",
-    "link": "https://square.link/u/MiwBP4Xv",
-    "price": "35",
+    "name": "Decorative Metal Pieces",
     "image": "./assets/do_not_use_1.jpg",
-    "description": ""
-  },
-  {
-    "category": "Welding",
-    "name": "Metal Deer / Bull",
-    "link": "https://square.link/u/vzvvZ9vW",
-    "price": "25",
-    "image": "./assets/do_not_use_2.jpeg",
-    "description": ""
-  },
-  {
-    "category": "Welding",
-    "name": "Metal Ornament",
-    "link": "https://square.link/u/EKJMTu0T",
-    "price": "5",
-    "image": "./assets/do_not_use_1.jpg",
-    "description": ""
-  },
-  {
-    "hide": true,
-    "soldOut": true,
-    "category": "Welding",
-    "name": "Metal Wall Art (Large)",
-    "link": "https://square.link/u/cTwQPFoB",
-    "price": "40",
-    "noimage": "🖼️",
-    "description": ""
-  },
-  {
-    "category": "Welding",
-    "name": "Metal Wall Art (Small)",
-    "link": "https://square.link/u/HEz02Gal",
-    "price": "20",
-    "image": "./assets/do_not_use_1.jpg",
-    "description": ""
+    "description": "",
+    "options": [
+      {
+        "category": "Welding",
+        "name": "Metal Ornament",
+        "link": "https://square.link/u/EKJMTu0T",
+        "price": "5",
+        "image": "./assets/do_not_use_1.jpg",
+        "description": ""
+      },
+      {
+        "category": "Welding",
+        "name": "Metal Deer / Bull",
+        "link": "https://square.link/u/vzvvZ9vW",
+        "price": "25",
+        "image": "./assets/do_not_use_2.jpeg",
+        "description": ""
+      },
+      {
+        "category": "Welding",
+        "name": "Metal Cross",
+        "link": "https://square.link/u/MiwBP4Xv",
+        "price": "35",
+        "image": "./assets/do_not_use_1.jpg",
+        "description": ""
+      },
+      {
+        "category": "Welding",
+        "name": "Metal Wall Art (Small)",
+        "link": "https://square.link/u/HEz02Gal",
+        "price": "20",
+        "image": "./assets/do_not_use_1.jpg",
+        "description": ""
+      },
+      {
+        "hide": true,
+        "soldOut": true,
+        "category": "Welding",
+        "name": "Metal Wall Art (Large)",
+        "link": "https://square.link/u/cTwQPFoB",
+        "price": "40",
+        "noimage": "🖼️",
+        "description": ""
+      }
+    ]
   },
   {
     "category": "Wood Shop",
