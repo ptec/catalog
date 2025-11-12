@@ -81,7 +81,7 @@
     "link": "https://square.link/u/5iwrAlij",
     "price": "20",
     "image": "./assets/con_standing_coat_rack.jpeg",
-    "description": "Only one remaining! - reduced price"
+    "description": "Rugged and reliable. Only one remaining! (Reduced price - was $35)"
   },
   {
     "category": "Construction",
@@ -196,7 +196,7 @@
     "category": "Masonry",
     "name": "Decorative Glass Block",
     "image": "./assets/mas_glass_block.jpeg",
-    "description": "",
+    "description": "Handcrafted glass light blocks that sparkle - they are perfect for the holidays, home décor, or gift giving.",
     "options": [
       {
         "category": "Masonry",
@@ -223,13 +223,13 @@
     "link": "https://square.link/u/cBqTQVPw",
     "price": "35",
     "image": "./assets/wel_lamp.jpeg",
-    "description": ""
+    "description": "With a warm light - each pipe lamp is welded, wired, and ready to stand out."
   },
   {
     "category": "Welding",
     "name": "Decorative Metal Pieces",
     "image": "./assets/do_not_use_1.jpg",
-    "description": "",
+    "description": "Available in a number of different designs and finishes.  These are a great conversation piece.",
     "options": [
       {
         "category": "Welding",
@@ -279,7 +279,7 @@
     "category": "Wood Shop",
     "name": "Wood Crafts",
     "image": "./assets/wsh_all.jpg",
-    "description": "",
+    "description": "Hand crafted wooden goods that make for perfect statement pieces or gifts.",
     "options": [
       {
         "category": "Wood Shop",
@@ -341,6 +341,6 @@
     "link": "https://square.link/u/xK1YoqGh",
     "price": 10,
     "image": "./assets/wsh_yardzee.jpeg",
-    "description": ""
+    "description": "Perfect for parties, BBQs, and family gatherings."
   }  
 ]
