@@ -43,6 +43,7 @@
     "description": "Designed and printed at PTEC. When lit, the light shines through, creating cozy and charming patterns for your space!"
   },
   {
+    "soldOut": true,
     "category": "Construction",
     "name": "Chess Board",
     "link": "https://square.link/u/eTHjE2f9",
