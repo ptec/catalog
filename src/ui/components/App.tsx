@@ -73,7 +73,7 @@ function Item({ i, item }: { i: number; item: Item }) {
                       <li className="max-w-full flex flex-row hover:bg-base-200 text-sm items-center flex-nowrap pl-2 rounded-lg">
                         <div className="badge badge-sm text-center w-8 font-bold items-center">${option.price}</div>
                         <div className="grow truncate! bg-transparent">{option.name}</div>
-                        {option.soldOut && (
+                        {/* {option.soldOut && (
                           <button className="btn btn-primary btn-sm" disabled>
                             Sold Out
                           </button>
@@ -87,7 +87,7 @@ function Item({ i, item }: { i: number; item: Item }) {
                           >
                             Buy Now
                           </a>
-                        )}
+                        )} */}
                       </li>
                     )
                   })}
@@ -97,7 +97,7 @@ function Item({ i, item }: { i: number; item: Item }) {
 
             {!item.options && <>
               <p className="text-lg">${item.price}</p>
-              {item.soldOut && (
+              {/* {item.soldOut && (
                 <button className="btn btn-primary" disabled>
                   Sold Out
                 </button>
@@ -111,7 +111,7 @@ function Item({ i, item }: { i: number; item: Item }) {
                 >
                   Buy Now
                 </a>
-              )}
+              )} */}
             </>}
           </div>
         </div>
