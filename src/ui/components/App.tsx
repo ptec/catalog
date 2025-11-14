@@ -69,7 +69,7 @@ function Item({ i, item }: { i: number; item: Item }) {
                 <div tabIndex={ 0} role="button" className="btn w-full m-1">{item.options.length} Options</div>
                 <ul  tabIndex={-1} className="dropdown-content menu bg-base-100 rounded-box z-1 w-full shadow-sm gap-1">
                   {item.options.map((option: any) => {
-                    return (
+                    return !(option.hide ?? false) && (
                       <li className="max-w-full flex flex-row hover:bg-base-200 text-sm items-center flex-nowrap pl-2 rounded-lg">
                         <div className="badge badge-sm text-center w-8 font-bold items-center">${option.price}</div>
                         <div className="grow truncate! bg-transparent">{option.name}</div>
