@@ -69,6 +69,7 @@
     "description": "Only two remaining! These trees will warm up any home, both indoors and out!"
   },
   {
+    "soldOut": true,
     "category": "Construction",
     "name": "Mountain Shelf",
     "link": "https://square.link/u/sIDgev3d",
@@ -77,6 +78,7 @@
     "description": "Celebrate the mountains of Colorado with this strategically designed shelf. It is both decorative and functional."
   },
   {
+    "soldOut": true,
     "category": "Construction",
     "name": "Standing Coat Rack",
     "link": "https://square.link/u/5iwrAlij",
