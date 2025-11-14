@@ -43,6 +43,7 @@
     "description": "Designed and printed at PTEC. When lit, the light shines through, creating cozy and charming patterns for your space!"
   },
   {
+    "hide": true,
     "soldOut": true,
     "category": "Construction",
     "name": "Chess Board",
@@ -61,6 +62,8 @@
     "description": "These handmade hangars are designed to be both functional and decorative in the home."
   },
   {
+    "hide": true,
+    "soldOut": true,
     "category": "Construction",
     "name": "Lighted Wood Tree",
     "link": "https://square.link/u/DeTxccQD",
@@ -69,6 +72,7 @@
     "description": "Only two remaining! These trees will warm up any home, both indoors and out!"
   },
   {
+    "hide": true,
     "soldOut": true,
     "category": "Construction",
     "name": "Mountain Shelf",
@@ -78,6 +82,7 @@
     "description": "Celebrate the mountains of Colorado with this strategically designed shelf. It is both decorative and functional."
   },
   {
+    "hide": true,
     "soldOut": true,
     "category": "Construction",
     "name": "Standing Coat Rack",
